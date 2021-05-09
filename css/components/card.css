@@ -1,0 +1,65 @@
+.card-product {
+  background-color: white;
+  width: 400px;
+  margin: auto;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 16px 36px rgba(0,0,0,0.2);
+}
+
+.card-product-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-product-top-image {
+  width: 50%;
+  flex-shrink: 0;
+  background-size: cover;
+  position: relative;
+}
+
+.card-product-top-image .position-icon {
+  color: red;
+  font-size: 18px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.card-product-info {
+  padding: 0 16px;
+  flex-grow: 1;
+}
+
+.card-product-info i {
+  color: #FDB434;
+}
+
+.card-product-middle {
+  height: 100px;
+  object-fit: cover;
+  margin: 16px 0;
+  height: 100px;
+  width: 100%;
+}
+
+.card-product-bottom {
+  display: flex;
+}
+
+.card-product-bottom img {
+  height: 70px;
+  margin: 0 8px;
+  flex-grow: 1;
+  object-fit: cover;
+}
+
+.card-product-bottom img:first-child {
+  margin-left: 0;
+}
+
+.card-product-bottom img:last-child {
+  margin-right: 0;
+}
+

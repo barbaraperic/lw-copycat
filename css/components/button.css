@@ -1,0 +1,10 @@
+.btn-green {
+  display: inline-block;
+  background-color: green;
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  margin-top: 8px;
+  width: 100%;
+  text-align: center;
+}
